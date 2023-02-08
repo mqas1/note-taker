@@ -1,6 +1,27 @@
 [
-  {
-    "title":"Test Title",
-    "text":"Test text"
-  }
+    {
+        "title": "Update roster",
+        "text": "The casual employees studying at university are currently on holidays. They should be given more hours next week.",
+        "id": "e9876938-56f0-4404-9bc5-929b83bca444"
+    },
+    {
+        "title": "Stock order",
+        "text": "Show the new floor manager how to do the weekly order!",
+        "id": "9e41d625-a940-481f-846e-18268542de73"
+    },
+    {
+        "title": "Banking",
+        "text": "Go to the bank earlier to avoid the lunchtime queue…",
+        "id": "bfbdddca-312e-4ced-a4f4-15e8d86f6708"
+    },
+    {
+        "title": "Staff induction",
+        "text": "Have all the paperwork ready… and your script… for the new team member induction.",
+        "id": "7a11e8c3-0895-4d80-8a80-4a9c80d17f21"
+    },
+    {
+        "title": "Chamber of Commerce dinner",
+        "text": "Don't forget to change out of your work clothes and get into your dinner suit after work!",
+        "id": "9b0252ee-1db2-4080-82cc-2c1d0c6b3f31"
+    }
 ]

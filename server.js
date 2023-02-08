@@ -1,17 +1,22 @@
 const express = require('express');
 const path = require('path');
+const api = require('./routes/index.js');
 
 const PORT = process.env.PORT || 3001;
 
 const app = express();
 
 const middleware = (req, res, next) => {
-  const cyan = '\x1b[36m';
-  console.log(`${cyan}${req.method} request to ${req.path}`);
+  const magenta = '\x1b[35m';
+  console.log(`${magenta}${req.method} request to ${req.path}`);
   next();
 }
 
 app.use(middleware);
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use('/api', api);
 
 app.use(express.static('public'));
 
