@@ -7,7 +7,7 @@ Owning a business is difficult work. Managing staff, processes, and staying up t
 
 Note Taker was created with a view to helping business owners in this endeavour. This application will supply you with the means to jot down your thoughts; organised and succinct or loose and free form, that's up to you. Note Taker doesn't judge.
 
-[Deployed page]() on Heroku.
+[Deployed page](https://note-taker-mqas1.herokuapp.com/) on Heroku.
   
 ## Table of Contents
   
@@ -25,13 +25,15 @@ Run the following command, ```npm i```, to install the required packages.
 ## Usage
 The user is presented with a landing page and clicks the "Get Started" button, which redirects the user to the notes page.
 
-The user writes a note title and note text. A save button appears in the top right when this is done. The user can save this note whereby it is saved to a ```JSON``` file acting as a database through an API ```POST``` request. 
+The user writes a note title and note text. A save button appears in the top right when this is done. The user can save this note whereby it is saved to a JSON file acting as a database through a HTTP ```POST``` request. 
 
-The saved note is displayed on the left hand side of the page through an API ```GET``` request. When the user clicks on the saved note the note title and text is displayed on the right hand side.
+The saved note is displayed on the left hand side of the page through a HTTP ```GET``` request. When the user clicks on the saved note the note title and text is displayed on the right hand side.
 
-Each saved note has a delete button whereby the user triggers a ```DELETE``` request with the click event. Thus deleting the saved note from the ```JSON``` file/database.
+Each saved note has a delete button whereby the user triggers a ```DELETE``` request with the click event. Thus deleting the saved note from the JSON file/database.
 
 To add another note the user clicks on the addition button in the top right of the header.
+
+---
 
 ### Screenshots
 ![Screenshot of landing page](./public/assets/images/screenshot-landing-page.jpeg)
