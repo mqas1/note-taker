@@ -14,7 +14,7 @@ notes.get('/', (req, res) => {
 // GET Route for a specific note to display on the page
 notes.get('/:id', (req, res) => {
   const noteId = req.params.id;
-  readFromFile('./db/tips.json')
+  readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
       const result = json.filter((note) => note.id === noteId);
