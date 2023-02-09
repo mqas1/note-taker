@@ -1,3 +1,4 @@
+// Importing the required files
 const express = require('express');
 const path = require('path');
 const api = require('./routes/index.js');
@@ -6,6 +7,7 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
+// Express middleware
 const middleware = (req, res, next) => {
   const magenta = '\x1b[35m';
   console.log(`${magenta}${req.method} request to ${req.path}`);
@@ -20,6 +22,7 @@ app.use('/api', api);
 
 app.use(express.static('public'));
 
+// HTTP routes for the page
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
