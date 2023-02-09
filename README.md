@@ -44,7 +44,7 @@ To add another note the user clicks on the addition button in the top right of t
 ---
 
 ## Credits
-Front-end developped by [edX](https://techbootcamp.sydney.edu.au/coding/) and back-end developed and integrated by [Morgan Qasabian](https://github.com/mqas1). 
+Front-end developed by [edX](https://techbootcamp.sydney.edu.au/coding/) and back-end developed and integrated by [Morgan Qasabian](https://github.com/mqas1). 
   
 ## License
 This application is covered under the [ISC License](https://opensource.org/licenses/ISC):
